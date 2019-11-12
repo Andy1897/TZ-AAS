@@ -1,0 +1,26 @@
+.edit{ 
+min-width: 60%; 
+min-height: 50px;
+text-align: center; 
+font-size: 20px;
+margin: 0 30% 0 20%; 
+padding-top: 2%;
+}
+
+.forma{
+text-align: center;
+} 
+input[type="text"] {
+   border: 1px solid black;
+   border-radius: 5px;
+   width: 150px;
+}
+
+#content { 
+margin-top: 5%;
+float: bottom;
+
+
+}
+
+
