@@ -36,8 +36,6 @@
 				</form>
 				<?PHP
 
-
-
 				if (isset($_POST['login']) and (isset($_POST['password'])))
 					$br = mysqli_query($conn,"INSERT INTO users SET login='". $_POST['login']."', 
 					name='". $_POST['name']."',

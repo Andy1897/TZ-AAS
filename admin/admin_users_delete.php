@@ -19,8 +19,6 @@
                 $results = mysqli_fetch_all($results, MYSQLI_ASSOC);
                 ?>
 
-                
-				
 				<form action="admin_users_delete.php" method="post">
 					ID пользователя для удаления<br />
 					<input type="number" name="post_id" />
